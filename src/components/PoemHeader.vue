@@ -1,5 +1,4 @@
 <template>
-    <div>
         <div class="header">
             <div class="box">
                 <h1>
@@ -20,14 +19,7 @@
                 </nav>
             </div>
         </div>
-        <div class="contents">
-            <div class="content">
-                <!--指定组件的位置-->
-                <router-view></router-view>
-            </div>
-        </div>
 
-    </div>
 </template>
 
 <script>
@@ -50,9 +42,9 @@
         color: #ffffff;
 
         /*吸顶效果*/
-        position: sticky;
-        position: -webkit-sticky;   
-        top: 0px;                   
+        /* position: sticky;
+           position: -webkit-sticky;   
+        top: 0px;                    */
 
     }
     .box{
@@ -123,13 +115,14 @@
     }
 
     .contents{
-        display: flex;
+        /* display: flex; */
         justify-content: center;
+        background-color: #babaaa; 
     }
     .content{
-        display: flex;
-        width: 1400px;
-        height: 1400px;
-        /*background-color: #f0f2f3;*/
+        /* display: flex; */
+        /* width: 1400px; */
+        /* height: 1400px; */
+        background-color: #babaaa; 
     }
 </style>

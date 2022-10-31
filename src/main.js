@@ -8,6 +8,10 @@ import 'element-plus/dist/index.css'
 import VueAwesomePaginate from "vue-awesome-paginate";
 import "vue-awesome-paginate/dist/style.css";
 
+import 'vue-universal-modal/dist/index.css';
+
+import VueUniversalModal from 'vue-universal-modal';
+
 //按需引入element-ui
 // import {Row,Button} from 'element-ui';
 
@@ -19,4 +23,6 @@ import "vue-awesome-paginate/dist/style.css";
 // createApp(App).component(Button.name, Button);
 
 
-createApp(App).use(router).use(ElementPlus).use(VueAwesomePaginate).mount('#app')
+createApp(App).use(router).use(ElementPlus).use(VueAwesomePaginate).use(VueUniversalModal, {
+    teleportTarget: '#modals',
+  }).mount('#app')

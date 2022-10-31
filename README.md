@@ -1,7 +1,3 @@
-The poetry project has two parts: FE and BE and it is in progress
-
-vue.js + springboot + mysql
-
 # poem
 
 ## Project setup

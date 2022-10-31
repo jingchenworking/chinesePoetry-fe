@@ -17,7 +17,8 @@
     "vue-router": "^4.0.13",
     "vue-search-input": "^1.1.10",
     "vue-select": "^4.0.0-beta.5",
-    "vue-simple-search-dropdown": "^1.0.1"
+    "vue-simple-search-dropdown": "^1.0.1",
+    "vue-universal-modal": "^1.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
